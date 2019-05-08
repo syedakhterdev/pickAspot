@@ -1,0 +1,56 @@
+.sidebar {
+    max-width: 320px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 95px;
+    background: #FFFFFF;
+    padding: 30px 0;
+    overflow: auto;
+    height: 100%;
+    -webkit-box-shadow: 2px 0px 3px 0px rgba(0,0,0,0.20);
+    -moz-box-shadow: 2px 0px 3px 0px rgba(0,0,0,0.20);
+    box-shadow: 2px 0px 3px 0px rgba(0,0,0,0.20);
+    z-index: 100;
+
+}
+
+.navbar,
+.sidebar  .navbar-nav {
+    display: block;
+    padding: 0;
+    width: 100%;
+}
+.sidebar .navbar .navbar-nav li a {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #6A707E;
+    text-transform: capitalize;
+    padding: 18px 20px 18px 30px;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    transition: 0.4s all ease;
+}
+.sidebar .navbar .navbar-nav li a:hover {
+    background: rgba(99, 123, 244, 0.16);
+    transition: 0.4s all ease;
+}
+.sidebar .navbar .navbar-nav li a:hover:before {
+    content: '';
+    width: 3px;
+    height: 100%;
+    background: #637BF4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    transition: 0.4s all ease;
+}
+.sidebar .dropdown-toggle::after {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    font-size: 18px;
+}

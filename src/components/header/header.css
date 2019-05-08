@@ -1,0 +1,21 @@
+.header {
+    background: #637BF4;
+    position: fixed;
+    width: 100%;
+    z-index: 160;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo a {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Circular Std';
+}
+.logo a:hover {
+    text-decoration: none;
+    color:#fff;
+}
